@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+venv/
+.venv/
+# Runtime memory is intentionally persisted on disk between runs.
+# It is gitignored so demo state doesn't leak into commits, but it must
+# NOT be deleted between demo runs (the learning has to persist).
+memory_data/
